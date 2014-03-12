@@ -7,7 +7,7 @@ version := "$version$"
 libraryDependencies ++= Seq(
   "net.databinder" %% "unfiltered-filter" % "$unfiltered_version$",
   "net.databinder" %% "unfiltered-jetty" % "$unfiltered_version$",
-  "org.clapper" %% "avsl" % "0.4",
+  "org.clapper" %% "avsl" % "[0.4,1.0.1)",
   "net.databinder" %% "unfiltered-spec" % "$unfiltered_version$" % "test"
 )
 
